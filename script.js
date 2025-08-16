@@ -50,6 +50,12 @@ const obtenerPorcentajeIVA = function () {
     }
     return porcentajeIVAGuardado;
 }
+// 5. Función flecha: calcular subtotal (consumo × tarifa)
+const calcularSubtotal = () => {
+    const consumo = obtenerConsumo();
+    const tarifa = obtenerTarifa();
+    return consumo * tarifa;
+}
 
 
 
